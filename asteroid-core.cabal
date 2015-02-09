@@ -48,10 +48,9 @@ cabal-version:       >=1.10
 
 library
   -- Modules exported by the library.
-  exposed-modules:    Solar.Asteroid.Core.Valuable
+  exposed-modules:    Solar.Asteroid.Core.Valuable.Class
                     , Solar.Asteroid.Core.Valuable.Derive
-                    , Solar.Asteroid.Core.Value.Basics
-                    , Solar.Asteroid.Core.Value.BasicDerive
+                    , Solar.Asteroid.Core.Valuable.Basics
   
   -- Modules included in this library but not exported.
   -- other-modules:       

@@ -4,14 +4,7 @@
 {-# LANGUAGE FlexibleInstances #-}
 {-# LANGUAGE FlexibleContexts #-}
 
-module Solar.Asteroid.Core.Valuable
-    ( TextValuable(..)
-    , BinaryValuable(..)
-    , AesonValuable(..)
-    , Valuable
-    , ValuableStr
-    )
-    where
+module Solar.Asteroid.Core.Valuable.Class where
 
 -- base
 import Prelude(Either(..),String)
